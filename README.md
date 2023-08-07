@@ -2,7 +2,7 @@ This is my first-year final project at University, a scientific calculator with 
 You need both files in the same folder. 
 Run the app from finalcount.py. calcs.py contain the father class Calcs that inherits the functions to our ScientificCalculator class, mainly for better visibility of the code.
 
-When the app is in "dec" mode it is a proper scientific calc.
+When the app is in "dec" (decimal) mode it is a proper scientific calc.
 Calculations include +-*/, modulo, raise x to the power y(x**y), change sign(+/-), value of the fraction 1/x,  square root, Nth square root(nsqrt), factorial of a number, log for Natural numbers, for floats, for negative numbers(imaginary number as a result), pi and e numbers (π, e), and trigonometric calculation sin, cos, tan, asin, acos, atan, sinh, cosh in rad or degrees.
 
 The rad/deg button changes the input of a number to radians or degrees.
