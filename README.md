@@ -20,7 +20,7 @@ Lets say we have the expression -9*(5^3)+5-(6^2)
 You press the buttons and create a string(numerical expression) that the app will separate into two components, a list of the numbers contained(-9,5,3,5,6,2), and the basic expression in the form of num*(num^num)+num-(num^num).
 After that, we can convert the number to a different base, change the sign of the number, recreate the expression by replacing "num" in the expression with the new number, and use eval to get a result or just present the expression with converted numbers.
 
-in "bin" mode you can calculate logic gate expressions like NOT1, 1NAND0, and whole logic gates expressions in the form of (((NOT1)OR(1NAND0))NOR(1AND(1OR1))).
+In "bin" (binary) mode you can calculate logic gate expressions like NOT1, 1NAND0, and whole logic gates expressions in the form of (((NOT1)OR(1NAND0))NOR(1AND(1OR1))).
 A recursive function will enter first the inner () parentheses and start to calculate the result, the result will replace the inner parentheses expression, and the function will move to outer parentheses and do the same.
 The function will be doing that until no logic gates expression exists in our expression.
 In "bin" mode you can do more bitwise operations, shift left "<<" and shift right ">>".
